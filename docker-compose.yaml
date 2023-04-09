@@ -1,0 +1,82 @@
+version: '3'
+
+services:
+  web:
+    image: buoyantio/emojivoto-web:v11
+    environment:
+      - WEB_PORT=8080
+      - EMOJISVC_HOST=emoji-svc:8080
+      - VOTINGSVC_HOST=voting-svc:8080
+      - INDEX_BUNDLE=dist/index_bundle.js
+    ports:
+      - "8080:8080"
+    depends_on:
+      - voting-svc
+      - emoji-svc
+
+  vote-bot:
+    image: buoyantio/emojivoto-web:v11
+    entrypoint: emojivoto-vote-bot
+    environment:
+      - WEB_HOST=web:8080
+    depends_on:
+      - web
+
+  emoji-svc:
+    image: buoyantio/emojivoto-emoji-svc:v11
+    environment:
+      - GRPC_PORT=8080
+    ports:
+      - "8081:8080"
+
+  voting-svc:
+    image: buoyantio/emojivoto-voting-svc:v11
+    environment:
+      - GRPC_PORT=8080
+      - PROM_PORT=8801
+    ports:
+      - "8082:8080"
+      - "8801:8801"
+
+  prometheus:
+    image: prom/prometheus:latest
+    ports:
+      - "9000:9090"
+    volumes:
+      - ./prometheus:/etc/prometheus
+      - prometheus-data:/prometheus
+    command: --web.enable-lifecycle --config.file=/etc/prometheus/prometheus.yml
+  
+  grafana:
+    image: grafana/grafana
+    volumes:
+      # - ./grafana/grafana_datasources.yml:/etc/grafana/provisioning/datasources/all.yaml
+      - grafana-data:/var/lib/grafana
+    ports:
+      - "3000:3000"
+
+  cadvisor:
+    image: gcr.io/cadvisor/cadvisor:v0.47.0
+    container_name: cadvisor
+    ports:
+      - "8083:8083"
+    expose:
+      - "8083"
+    command:
+      - '-port=8083'
+    volumes:
+    - /:/rootfs:ro
+    - /var/run/docker.sock:/var/run/docker.sock:rw
+    - /sys:/sys:ro
+    - /var/lib/docker/:/var/lib/docker:ro
+    - /etc/machine-id:/etc/machine-id:ro
+
+  node-exporter:
+    image: prom/node-exporter:latest
+    restart: unless-stopped
+    expose:
+      - 9100
+
+volumes:
+  prometheus-data:
+  grafana-data:
