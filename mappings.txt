@@ -1,0 +1,395 @@
+          "mappings": [
+            {
+              "options": {
+                ":100:": {
+                  "index": 93,
+                  "text": "💯 "
+                },
+                ":bacon:": {
+                  "index": 61,
+                  "text": "🥓 "
+                },
+                ":balloon:": {
+                  "index": 82,
+                  "text": "🎈 "
+                },
+                ":basketball_man:": {
+                  "index": 45,
+                  "text": "⛹️‍♂️ "
+                },
+                ":beach_umbrella:": {
+                  "index": 71,
+                  "text": "⛱ "
+                },
+                ":beer:": {
+                  "index": 68,
+                  "text": "🍺 "
+                },
+                ":biking_man:": {
+                  "index": 46,
+                  "text": "🚴‍♂️ "
+                },
+                ":bowing_man:": {
+                  "index": 32,
+                  "text": "🙇‍♂️ "
+                },
+                ":boy:": {
+                  "index": 13,
+                  "text": "👦 "
+                },
+                ":bride_with_veil:": {
+                  "index": 24,
+                  "text": "👰 "
+                },
+                ":bulb:": {
+                  "index": 88,
+                  "text": "💡 "
+                },
+                ":burrito:": {
+                  "index": 64,
+                  "text": "🌯 "
+                },
+                ":call_me_hand:": {
+                  "index": 50,
+                  "text": "🤙 "
+                },
+                ":camping:": {
+                  "index": 73,
+                  "text": "🏕️ "
+                },
+                ":cat2:": {
+                  "index": 57,
+                  "text": "🐈 "
+                },
+                ":champagne:": {
+                  "index": 66,
+                  "text": "🍾 "
+                },
+                ":checkered_flag:": {
+                  "index": 94,
+                  "text": "🏁 "
+                },
+                ":clap:": {
+                  "index": 53,
+                  "text": "👏 "
+                },
+                ":cloud_with_rain:": {
+                  "index": 79,
+                  "text": "🌧 "
+                },
+                ":construction_worker_man:": {
+                  "index": 20,
+                  "text": "👷‍♂️ "
+                },
+                ":crossed_swords:": {
+                  "index": 95,
+                  "text": "⚔️ "
+                },
+                ":crystal_ball:": {
+                  "index": 90,
+                  "text": "🔮 "
+                },
+                ":dancer:": {
+                  "index": 38,
+                  "text": "💃 "
+                },
+                ":dancing_women:": {
+                  "index": 40,
+                  "text": "👯‍♀️ "
+                },
+                ":dog:": {
+                  "index": 56,
+                  "text": "🐶 "
+                },
+                ":fax:": {
+                  "index": 87,
+                  "text": "📠 "
+                },
+                ":fire:": {
+                  "index": 80,
+                  "text": "🔥 "
+                },
+                ":flight_departure:": {
+                  "index": 75,
+                  "text": "🛫 "
+                },
+                ":floppy_disk:": {
+                  "index": 96,
+                  "text": "💾 "
+                },
+                ":flushed:": {
+                  "index": 4,
+                  "text": "😳 "
+                },
+                ":ghost:": {
+                  "index": 7,
+                  "text": "👻 "
+                },
+                ":girl:": {
+                  "index": 14,
+                  "text": "👧 "
+                },
+                ":golfing_man:": {
+                  "index": 43,
+                  "text": "🏌️‍♂️ "
+                },
+                ":guardsman:": {
+                  "index": 19,
+                  "text": "💂‍♂️ "
+                },
+                ":hatching_chick:": {
+                  "index": 59,
+                  "text": "🐣 "
+                },
+                ":hear_no_evil:": {
+                  "index": 10,
+                  "text": "🙉 "
+                },
+                ":heart_eyes_cat:": {
+                  "index": 9,
+                  "text": "😻 "
+                },
+                ":interrobang:": {
+                  "index": 92,
+                  "text": "⁉️ "
+                },
+                ":iphone:": {
+                  "index": 85,
+                  "text": "📱 "
+                },
+                ":jack_o_lantern:": {
+                  "index": 81,
+                  "text": "🎃 "
+                },
+                ":joy:": {
+                  "index": 0,
+                  "text": "😂 "
+                },
+                ":man:": {
+                  "index": 15,
+                  "text": "👨 "
+                },
+                ":man_dancing:": {
+                  "index": 39,
+                  "text": "🕺 "
+                },
+                ":man_facepalming:": {
+                  "index": 33,
+                  "text": "🤦‍♂️ "
+                },
+                ":man_in_tuxedo:": {
+                  "index": 23,
+                  "text": "🤵‍♂️ "
+                },
+                ":mask:": {
+                  "index": 5,
+                  "text": "😷 "
+                },
+                ":massage_woman:": {
+                  "index": 35,
+                  "text": "💆‍♀️ "
+                },
+                ":metal:": {
+                  "index": 49,
+                  "text": "🤘 "
+                },
+                ":money_mouth_face:": {
+                  "index": 3,
+                  "text": "🤑 "
+                },
+                ":money_with_wings:": {
+                  "index": 89,
+                  "text": "💸 "
+                },
+                ":mountain_snow:": {
+                  "index": 72,
+                  "text": "🏔 "
+                },
+                ":mrs_claus:": {
+                  "index": 25,
+                  "text": "🤶 "
+                },
+                ":nerd_face:": {
+                  "index": 6,
+                  "text": "🤓 "
+                },
+                ":no_good_woman:": {
+                  "index": 29,
+                  "text": "🙅‍♀️ "
+                },
+                ":ok_woman:": {
+                  "index": 30,
+                  "text": "🙆‍♀️ "
+                },
+                ":older_man:": {
+                  "index": 17,
+                  "text": "👴 "
+                },
+                ":pager:": {
+                  "index": 86,
+                  "text": "📟 "
+                },
+                ":pig:": {
+                  "index": 58,
+                  "text": "🐷 "
+                },
+                ":pizza:": {
+                  "index": 62,
+                  "text": "🍕 "
+                },
+                ":point_up_2:": {
+                  "index": 47,
+                  "text": "👆 "
+                },
+                ":policeman:": {
+                  "index": 18,
+                  "text": "👮‍♂️ "
+                },
+                ":pray:": {
+                  "index": 55,
+                  "text": "🙏 "
+                },
+                ":prince:": {
+                  "index": 21,
+                  "text": "🤴 "
+                },
+                ":princess:": {
+                  "index": 22,
+                  "text": "👸 "
+                },
+                ":rabbit:": {
+                  "index": 28,
+                  "text": "🐰 "
+                },
+                ":rainbow:": {
+                  "index": 41,
+                  "text": "🌈 "
+                },
+                ":raised_hands:": {
+                  "index": 54,
+                  "text": "🙌 "
+                },
+                ":raising_hand_woman:": {
+                  "index": 31,
+                  "text": "🙋‍♀️ "
+                },
+                ":ramen:": {
+                  "index": 65,
+                  "text": "🍜 "
+                },
+                ":rocket:": {
+                  "index": 76,
+                  "text": "🚀 "
+                },
+                ":running_man:": {
+                  "index": 37,
+                  "text": "🏃‍♂️ "
+                },
+                ":santa:": {
+                  "index": 26,
+                  "text": "🎅 "
+                },
+                ":see_no_evil:": {
+                  "index": 11,
+                  "text": "🙈 "
+                },
+                ":skier:": {
+                  "index": 42,
+                  "text": "⛷️ "
+                },
+                ":skull_and_crossbones:": {
+                  "index": 8,
+                  "text": "☠️ "
+                },
+                ":snail:": {
+                  "index": 60,
+                  "text": "🐌 "
+                },
+                ":speak_no_evil:": {
+                  "index": 12,
+                  "text": "🙊 "
+                },
+                ":star2:": {
+                  "index": 77,
+                  "text": "🌟 "
+                },
+                ":steam_locomotive:": {
+                  "index": 74,
+                  "text": "🚂 "
+                },
+                ":stuck_out_tongue_winking_eye:": {
+                  "index": 2,
+                  "text": "😜 "
+                },
+                ":sun_behind_small_cloud:": {
+                  "index": 78,
+                  "text": "🌤 "
+                },
+                ":sunglasses:": {
+                  "index": 1,
+                  "text": "😎 "
+                },
+                ":surfing_man:": {
+                  "index": 44,
+                  "text": "🏄‍♂️ "
+                },
+                ":taco:": {
+                  "index": 63,
+                  "text": "🌮 "
+                },
+                ":tada:": {
+                  "index": 83,
+                  "text": "🎉 "
+                },
+                ":thumbsup:": {
+                  "index": 51,
+                  "text": "👍 "
+                },
+                ":trophy:": {
+                  "index": 84,
+                  "text": "🏆 "
+                },
+                ":tropical_drink:": {
+                  "index": 67,
+                  "text": "🍹 "
+                },
+                ":tumbler_glass:": {
+                  "index": 69,
+                  "text": "🥃 "
+                },
+                ":turkey:": {
+                  "index": 27,
+                  "text": "🦃 "
+                },
+                ":underage:": {
+                  "index": 91,
+                  "text": "🔞 "
+                },
+                ":vulcan_salute:": {
+                  "index": 48,
+                  "text": "🖖 "
+                },
+                ":walking_man:": {
+                  "index": 36,
+                  "text": "🚶‍♂️ "
+                },
+                ":wave:": {
+                  "index": 52,
+                  "text": "👋 "
+                },
+                ":woman:": {
+                  "index": 16,
+                  "text": "👩 "
+                },
+                ":woman_shrugging:": {
+                  "index": 34,
+                  "text": "🤷‍♀️ "
+                },
+                ":world_map:": {
+                  "index": 70,
+                  "text": "🗺️ "
+                }
+              },
+              "type": "value"
+            }
+          ],
