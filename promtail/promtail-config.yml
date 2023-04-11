@@ -8,6 +8,7 @@ positions:
 clients:
   - url: http://loki:3100/loki/api/v1/push
 
+# https://thesmarthomejourney.com/2021/08/23/loki-grafana-log-aggregation/
 scrape_configs:
 - job_name: containers
   static_configs:
